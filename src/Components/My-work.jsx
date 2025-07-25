@@ -7,8 +7,8 @@ const projects = [
     id: 1,
     title: "Game Reviews",
     description: "Full-featured online store with React and Node.js",
-    tags: ["react", "bootstrap", "javascript", "api"],
-    image: "/src/assets/gamereview.png",
+    tags: [ "bootstrap", "javascript", "api","css"],
+    image: "/assets/gamereview.png",
     github: "https://github.com/marwanubian/GameVerse-Next-Gen-Game-Reviews",
     live: "https://marwanubian.github.io/GameVerse-Next-Gen-Game-Reviews/#"
   },
@@ -16,8 +16,8 @@ const projects = [
     id: 2,
     title: "Smart Log In",
     description: "Productivity app with drag-and-drop functionality",
-    tags: ["css", "javascript"],
-    image: "/src/assets/login.png",
+    tags: ["css", "javascript", "bootstrap"],
+    image: "/assets/login.png",
     github: "https://marwanubian.github.io/smart-log-in/",
     live: "https://marwanubian.github.io/smart-log-in/"
   },
@@ -26,7 +26,7 @@ const projects = [
     title: "Weather Dashboard",
     description: "Real-time weather data visualization",
     tags: ["javascript", "api", "css", "bootstrap"],
-    image: "/src/assets/weather dashboard.png",
+    image: "/assets/weather dashboard.png",
     github: "https://github.com/marwanubian/Weather-Dashboard",
     live: "https://marwanubian.github.io/Weather-Dashboard/"
   },
@@ -34,10 +34,19 @@ const projects = [
     id: 4,
     title: "Bookmarker",
     description: "Search and save your favorite recipes",
-    tags: ["react", "api"],
-    image: "/src/assets/bookmark.png",
+    tags: ["javascript", "css", "bootstrap"],
+    image: "/assets/bookmark.png",
     github: "https://github.com/marwanubian/Bookmarker",
     live: "https://marwanubian.github.io/Bookmarker/"
+  },
+  {
+    id: 5,
+    title: "CV portofolio",
+    description: "CV for a junior frontend developer",
+    tags: ["react", "javascript", "api", "css", "bootstrap"],
+    image: "/assets/cv.PNG",
+    github: "https://github.com/marwanubian/Mycv",
+    live: "https://mycv-woad-nine.vercel.app/"
   }
 ];
 
