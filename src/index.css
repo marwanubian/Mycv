@@ -1,0 +1,33 @@
+/* Add these styles to your main CSS file */
+body {
+  padding-top: 56px;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  padding: 0.5rem 1rem;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+section {
+  padding: 60px 0;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
