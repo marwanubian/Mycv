@@ -2,16 +2,42 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
-const projects = [
-  {
+
+const projects = [{
     id: 1,
+    title: "E-Commerce Website",
+    description: "Full-featured online shopping platform built with React",
+    tags: ["react", "javascript", "css", "tailwind", "api","NextJs"],
+    image: "/src/assets/ecommerce.png",// ضعي صورة المشروع هنا
+    github: "https://github.com/marwanubian/e-commerce-websitee", // لو عندك GitHub repo
+    live: "https://e-commerce-websitee-seven.vercel.app/"
+  },
+  {
+    id: 6,
     title: "Game Reviews",
     description: "Full-featured online store with React and Node.js",
-    tags: [ "bootstrap", "javascript", "api","css"],
+    tags: ["bootstrap", "javascript", "api","css"],
     image: "/assets/gamereview.png",
     github: "https://github.com/marwanubian/GameVerse-Next-Gen-Game-Reviews",
     live: "https://marwanubian.github.io/GameVerse-Next-Gen-Game-Reviews/#"
+  },{
+    id: 3,
+    title: "Weather Dashboard",
+    description: "Real-time weather data visualization",
+    tags: ["javascript", "api", "css", "bootstrap"],
+    image: "/assets/weather dashboard.png",
+    github: "https://github.com/marwanubian/Weather-Dashboard",
+    live: "https://marwanubian.github.io/Weather-Dashboard/"
+  },{
+    id: 5,
+    title: "CV Portfolio",
+    description: "CV for a junior frontend developer",
+    tags: ["react", "javascript", "api", "css", "bootstrap"],
+    image: "/assets/cv.PNG",
+    github: "https://github.com/marwanubian/Mycv",
+    live: "https://mycv-woad-nine.vercel.app/"
   },
+  
   {
     id: 2,
     title: "Smart Log In",
@@ -21,15 +47,7 @@ const projects = [
     github: "https://marwanubian.github.io/smart-log-in/",
     live: "https://marwanubian.github.io/smart-log-in/"
   },
-  {
-    id: 3,
-    title: "Weather Dashboard",
-    description: "Real-time weather data visualization",
-    tags: ["javascript", "api", "css", "bootstrap"],
-    image: "/assets/weather dashboard.png",
-    github: "https://github.com/marwanubian/Weather-Dashboard",
-    live: "https://marwanubian.github.io/Weather-Dashboard/"
-  },
+  
   {
     id: 4,
     title: "Bookmarker",
@@ -39,16 +57,9 @@ const projects = [
     github: "https://github.com/marwanubian/Bookmarker",
     live: "https://marwanubian.github.io/Bookmarker/"
   },
-  {
-    id: 5,
-    title: "CV portofolio",
-    description: "CV for a junior frontend developer",
-    tags: ["react", "javascript", "api", "css", "bootstrap"],
-    image: "/assets/cv.PNG",
-    github: "https://github.com/marwanubian/Mycv",
-    live: "https://mycv-woad-nine.vercel.app/"
-  }
+  
 ];
+
 
 const allTags = ["all", ...new Set(projects.flatMap(project => project.tags))];
 

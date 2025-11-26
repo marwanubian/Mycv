@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaTwitter, FaHeart } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-dark text-white py-4">
+<footer className="bg-dark text-white py-4 sticky-footer">
       <div className="container text-center">
         <h5 className="mb-3">Let's Connect</h5>
         
